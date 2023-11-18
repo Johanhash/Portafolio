@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JJ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="assets/CV.pdf" onclick="seleccionar()">DESCARGAR CV</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="assets/PERFIL.jpg" alt="">
+            </div>
+            <h1>Johan Juarez</h1>  
+            <h2>Ingeniero de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/johan.juarezgonzalez/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/JohanJurez2"><i class="fa-brands fa-x"></i></a>
+                <a href="https://github.com/Johanhash"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/qr/K2PORAPHY5W7O1"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Johan</span> actualmente soy estudiante de ingenieria en software. Me apasiona la tecnología y la innovación, y me gusta estar al día de las últimas tendencias y herramientas del sector. Tengo conocimientos en lenguajes como Java, Python, JavaScript, HTML y CSS. Mi objetivo profesional es seguir creciendo como ingeniero de software y aportar soluciones de calidad que satisfagan las necesidades de los usuarios y los clientes. Me considero una persona proactiva, creativa y orientada al detalle. Me gusta trabajar en entornos dinámicos y colaborativos, donde pueda aprender de otros profesionales y compartir mis conocimientos y experiencias. Tambien me gustaria realizar proyectos que tengan que ver con sistemas de navegación por GPS, Sistemas de control de tráfico aéreo  y Sistemas de seguridad.</p>
+            <div class="fila">
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                
+                <div class="col">
+                    <h3>Habilidades duras </h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <h3>Habilidades blandas</h3>
+                    <div class="skill">
+                        <span>Adatabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión del tiempo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Empatia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="assets/i1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de control de estudiantes y cursos</h3>
+                        <p>Es un sistema en el cual podemos registrar alumnos, agregar cursos y inscribir los alumnos a los cursos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assets/i2.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de control de empleados </h3>
+                        <p>Es un sistema en el cual podemos guardar el nombre, salario y responsabilidades de los empleados, asi como calculcar su salario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assets/i3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de navegacion via GPS</h3>
+                        <p>Es un sistema en el cual podemos navegar a traves de la ciudad con nuestro telefono</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assets/i4.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de control de tarjetas de transporte publico</h3>
+                        <p>Es un sistema que nos permite llevar los datos del usuario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assets/i5.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de control de accesorios inteligentes </h3>
+                        <p>Es un sistema que nos permite controlar accesorios de forma universal</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assets/i6.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de control de ruta de transporte </h3>
+                        <p>Es un sistema que lleva el control del tiempo de las rutas, asi como su seguimiento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">   
+                <div class="col">
+                    <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o enviándome un mensaje a través del siguiente formulario.</p>
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/johan.juarezgonzalez/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/JohanJurez2"><i class="fa-brands fa-x"></i></a>
+            <a href="https://github.com/Johanhash"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/qr/K2PORAPHY5W7O1"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p>Desarrollado por Johan Juarez</p>
+        <p>Todos los derechos reservados ©2023 Portafolio Johan Juarez </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
